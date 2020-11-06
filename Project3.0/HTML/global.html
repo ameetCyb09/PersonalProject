@@ -8,18 +8,20 @@
         $(".glow-on-hover").click(() => {
             $(".mainsection").load("./modules/createBlog.html");
         });
+        $("#viewAfterNav").load("/Project3.0/HTML/modules/quotes.html");
     </script>
     <title>Document</title>
 </head>
 
 <body>
+    <div id="viewAfterNav" class="view intro-2"></div>
     <div class="container-fluid">
         <div class="row h-100">
-            <div class="sidebar col-md-3">
+            <div class="sidebar bg-white col-md-3">
                 <div class="p-2">
                     <button class="glow-on-hover" type="button">CREATE BLOG!!</button>
                 </div>
-                <div class="p-2">
+                <div id="categories" class="p-2">
                     <h3>CATOGORIES</h3>
                     <div id="carouselControls" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">

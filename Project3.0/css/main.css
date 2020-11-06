@@ -5,15 +5,7 @@ html, body {
 
 a {
   text-decoration: none;
-  color: #3f4954; }
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-ul {
-  list-style-type: none; }
+  color: #ffffff; }
 
 button.btn {
   border: none;
@@ -22,21 +14,50 @@ button.btn {
   font-size: 1rem;
   cursor: pointer; }
 
-.text-gray {
-  color: #3f4954; }
-
-#logo {
-  text-decoration: none; }
-
 #loginClicked {
   text-decoration: none;
   font-weight: bold; }
 
 .navbar {
-  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); }
+  background: linear-gradient(to right, black, grey, white, grey); }
+
+#quotePost {
+  margin: 50px;
+  box-shadow: 6px 15px 18px #000; }
+
+#viewAfterNav {
+  position: relative;
+  background-size: cover; }
+
+.navbar #logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.nav-item {
+  color: #ffffff; }
+
+.nav-link {
+  color: #0f0f0f;
+  font-weight: bold;
+  font-size: 20px; }
 
 .collapse {
   z-index: 1; }
+
+.nav-link:hover {
+  font-size: 25px;
+  background: rgba(238, 126, 70, 0.5);
+  border: 0px solid;
+  border-radius: 15px; }
+
+#logoutClicked {
+  display: none; }
+
+#submitBtn {
+  color: #000;
+  font-weight: bold; }
 
 .leftSection {
   background-color: #eb9576;
@@ -50,6 +71,146 @@ button.btn {
 .sidebar {
   background-color: #4d88e7;
   padding: 20px; }
+
+#errorPassword span h3 {
+  color: red;
+  font-size: large; }
+
+#loginPage {
+  background-image: url("/Project3.0/images/pexels-photo-303383.jpeg");
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+.boxLogin {
+  width: 500px;
+  padding: 40px;
+  text-align: center;
+  transition: 0.25s;
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #94e080; }
+
+.boxLogin input[type="email"],
+.boxLogin input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s; }
+
+.boxLogin input[type="email"]:focus,
+.boxLogin input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71; }
+
+.boxLogin h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.boxLogin #btn_Login,
+.boxLogin #btn_Register {
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer; }
+
+.boxLogin #btn_Login:hover,
+.boxLogin #btn_Register:hover {
+  background: #2ecc71; }
+
+.boxLogin label {
+  color: #ffffff; }
+
+.boxLogin {
+  color: #ffffff; }
+
+.error {
+  color: red; }
+
+#valid {
+  color: green; }
+
+.registerPage {
+  background-image: url("/Project3.0/images/pexels-photo-583846.jpeg");
+  padding-top: 120px;
+  padding-bottom: 120px; }
+
+#boxRegister {
+  background: rgba(23, 21, 20, 0.7);
+  width: 90%;
+  transition: 0.25s;
+  border: 2px solid;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #4ec057; }
+
+#boxRegister h2 {
+  text-align: center;
+  color: #e6dbdb;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+#boxRegister input[type="text"],
+#boxRegister input[type="password"],
+#boxRegister input[type="email"],
+#boxRegister input[type="tel"] {
+  border: 0;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: wheat;
+  font-weight: bold;
+  border-radius: 24px;
+  transition: 0.25s; }
+
+#boxRegister input[type="text"]:focus,
+#boxRegister input[type="password"]:focus,
+#boxRegister input[type="email"]:focus,
+#boxRegister input[type="tel"]:focus {
+  width: 300px;
+  border-color: #2ecc71; }
+
+#boxRegister label {
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff; }
+
+#boxRegister #btnLogin,
+#boxRegister #btnRegister {
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer; }
+
+#boxRegister #btnLogin:hover,
+#boxRegister #btnRegister:hover {
+  background: #2ecc71;
+  color: #000; }
 
 .glow-on-hover {
   width: 150px;
@@ -97,12 +258,66 @@ button.btn {
   top: 0;
   border-radius: 10px; }
 
-.carousel-item img {
-  opacity: 70%;
-  filter: blur(5px); }
+.postSection {
+  height: 1000px; }
 
-.carousel-item img:hover {
+#categories {
+  box-shadow: 7px 15px 18px black; }
+
+#categories .carousel-item img {
+  border: 1px solid #0f0f0f;
+  opacity: 60%;
+  background-size: cover; }
+
+#categories .carousel-item img:hover {
   opacity: 100%;
   filter: blur(1px);
-  transition: opacity .5s ease-in;
-  transition: opacity .5s ease-out; }
+  transition: opacity .5s ease-in-out; }
+
+#actualFooter {
+  background-image: linear-gradient(white, #666377, #222129, #111010);
+  color: #ffffff; }
+
+.footer-copyright {
+  background-color: #131022;
+  color: #ffffff; }
+
+.footer-copyright a {
+  color: #ffffff; }
+
+.footer-copyright a:hover {
+  color: #94e080;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+#creatorsCard {
+  border: 0px solid black;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 7px 15px 18px black; }
+
+#creatorsCard h5,
+#creatorsCard p {
+  color: #000;
+  font-weight: bold; }
+
+#creatorsCard ul {
+  list-style: none; }
+
+#linksCard {
+  border: 0px solid black;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 7px 15px 18px black;
+  margin-bottom: 20px; }
+
+#linksCard h5 {
+  color: #000;
+  font-weight: bold; }
+
+#linksCard ul {
+  list-style: none; }
+
+.aboutFooter {
+  color: #000; }
