@@ -1,0 +1,43 @@
+$headcolor: aquamarine;
+$linkcolor:blue;
+$blogbgcolor:#e8e8e8;
+.gridbox{
+    border: 1px solid;
+    box-shadow:10px 10px 10px #888888;
+    float: left;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    background-color: $blogbgcolor;
+    h2{
+        color:$headcolor;
+    }
+   
+    img{
+        float:left;
+        margin:5%;
+    }
+    b{
+        float:none;
+    }
+    a{
+        color: $linkcolor;
+    }
+    p{
+        font-size: 1rem;
+        margin:10%;
+    }
+}
+
+.gridboxfullview{
+    @extend.gridbox;
+    width: 100%;
+    height: 100%;
+     border:none;
+     box-shadow:none;
+    img{
+        width: 50%;
+        height: 50%;
+    }
+   
+}

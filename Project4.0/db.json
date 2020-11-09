@@ -1,0 +1,210 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "fName": "Pranav",
+      "uName": "Pranav96",
+      "phoneNo": "9823246164",
+      "email": "pranav@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 2,
+      "fName": "Ameet",
+      "uName": "ameet09",
+      "phoneNo": "9874563211",
+      "email": "awdawd@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 3,
+      "fName": "mukesh",
+      "uName": "mukesh09Lakh",
+      "phoneNo": "9876543211",
+      "email": "nitaabmani@gmail.com",
+      "password": "987654321"
+    },
+    {
+      "id": 4,
+      "fName": "amit",
+      "uName": "amit08",
+      "phoneNo": "9823246165",
+      "email": "amit@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 5,
+      "fName": "Pranay",
+      "uName": "PK",
+      "phoneNo": "8698117517",
+      "email": "pk@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 6,
+      "fName": "Rohan",
+      "uName": "po",
+      "phoneNo": "8909876545",
+      "email": "roh@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 7,
+      "fName": "mayuresh",
+      "uName": "mk",
+      "phoneNo": "1234567890",
+      "email": "mg@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": 8,
+      "fName": "swapnil",
+      "uName": "swapnilmane",
+      "phoneNo": "1234567890",
+      "email": "swapnilman@cybage.com",
+      "password": "1234567890"
+    }
+  ],
+  "blogs": [
+    {
+      "category": "Travelling",
+      "id": 10010,
+      "author": "Jane Poles",
+      "title": "THE BEST HIKING TIPS FOR VACATION",
+      "content": "Hiking and other forms of outdoor recreation have become increasingly vital to many people’s health (and, if we’re being honest, sanity) in 2020.   You can tell from the record-breaking crowds at many of the US National Parks, and even our local Georgia State Parks, this summer. As a result, all the various Facebook Hiking Groups we’re members of have seen an increasing number of new hikers asking for gear recommendations. The best hiking backpacks are second only to hiking shoes among the most common questions. Whether you’re looking for a small hiking backpack for day trips or a serious trekking backpack for multi-day excursions, choosing a backpack for hiking is an important decision that can make or break your outdoor adventure. The best hiking packs are fairly lightweight, have lots of organizational pockets for stashing your gear, and have design features to keep your body cool and help you carry weight more comfortably. To that end, we’ve tested more than 30 different bags to bring you this extensive list, which includes backpacks designed for long-distance trekking, for women, ultralight and waterproof bags, and daypacks for hiking.",
+      "Date": "01 Nov 2020",
+      "Image": "http://www.jamesborrell.com/wp-content/uploads/2012/05/IMG_8922b_edited-1-w960-h600.jpg "
+    },
+    {
+      "category": "Nature",
+      "id": 1002,
+      "author": "Dr.James Borrel",
+      "title": "Escape the Zoo: Conservation and Optimism",
+      "content": "The rabbit warren of securing research funding has meant I largely neglected science communication for the past few months. Writing well is hard, writing articles people will actually read is even harder! So it’s wonderful when nice people do a lot of the hard work for you, thanks Dan.A few weeks ago it was my pleasure to talk all things conservation and optimism with Dan Clarke who runs a great long form podcast series called ‘Escape the Zoo‘. Despite having done a few podcasts recently, I don’t know much about actually presenting and processing a podcast – so I was immediately impressed by the big shiny microphone hanging infront of Dan when we connected in skype. He clearly means business!It was even more exciting, that after he intereviewd me, Dan spoke to one of my all time heros –Jeremy Hance, of Mongabay fame. If you don’t know what a Solenodon is, then listen to Jeremy first!",
+      "Date": "08 Nov 2018",
+      "Image": "http://www.jamesborrell.com/wp-content/themes/elegance/cache/James_Borrell_filming_madagascar-660x409.jpg"
+    },
+    {
+      "category": "Nature",
+      "id": 1003,
+      "author": "Martin Paul",
+      "title": "UmPhafa, South Africa",
+      "content": "In late 2011 I spent two months living and working at UmPhafa Private Nature Reserve, nestled on the edge of the Drakensberg Mountains in Kwa-Zulu Natal, South Africa. Rather than an expedition, at Umphafa I was able to live on the reserve, where they have an ambitious vision to return what was heavily overgrazed farmland to its former beauty, reintroducing and encouraging the return of numerous species along the way.Wildlife documentaries make finding wildlife look easy, I can assure you it’s not.To cut a long story short I didn’t manage it, but by a complete fluke we stumbled on a Cheetah instead",
+      "Date": "04 Aug 2018",
+      "Image": "http://www.jamesborrell.com/wp-content/uploads/2018/07/james_borrell_ethiopa2.jpg"
+    },
+    {
+      "category": "Art",
+      "id": 1004,
+      "author": "Lisa Takahashi",
+      "title": "PAINTERS CONNECTED: ONLINE ART CLASSES AND ACTIVITIES",
+      "content": "While we stay home in order to help flatten the curve of the Coronavirus pandemic, many fantastic resources have appeared online, to help us keep engaged with our practice and feel connected to others. Originally published at the beginning of the first UK-wide lockdown in March 2020, this post has now been updated with details of the most reputable online painting and drawing classes currently available. If you have suggestions of other resources that should be mentioned here please do submit them by making a comment at the end of the article.an expedition, at Umphafa I was able to live on the reserve, where they have an ambitious vision to return what was heavily overgrazed farmland to its former beauty, reintroducing and encouraging the return of numerous species along the way.Wildlife documentaries make finding wildlife look easy, I can assure you it’s not.To cut a long story short I didn’t manage it, but by a complete fluke we stumbled on a Cheetah instead",
+      "Date": "04 Nov 2017",
+      "Image": "https://www.jacksonsart.com/blog/wp-content/uploads/2020/03/On_Location_Jacksons_Artist_Oil_Factory_Visit_Atmos_37.jpg"
+    },
+    {
+      "category": "Art",
+      "id": 1005,
+      "author": "Evie Hatch",
+      "title": "ADEBANJI ALADE: THE ADDICTIVE SKETCHER",
+      "content": "Adebanji Alade is a renowned artist, best known for his dynamic oil paintings. Drawing is at the very core of his practice and his new book, Addictive: An Artist’s Sketchbook, showcases one of his sketchbooks in its entirety. It is an inspirational insight into the artist’s mind as he documents the urban landscape and the people who inhabit it. In this interview, Adebanji Alade tells us more about his book, why a sketchbook is such a crucial artist tool, and the importance of making drawing a habit.All images are from Addictive: An Artist’s Sketchbook, courtesy of Search Press",
+      "Date": "10 jan 2020",
+      "Image": "https://www.jacksonsart.com/blog/wp-content/uploads/2020/10/Module-2_2.jpg"
+    },
+    {
+      "category": "Food",
+      "id": 1006,
+      "author": "Rosey Jane",
+      "title": "Garlic & Herb Sweet Potato Nourish Bowl",
+      "content": "Lately, I can’t get enough of romaine lettuce, which is weird considering a few months ago it was my least favorite green (next to iceberg). However, with the creation of our Vegan Caesar Salad with BBQ Sweet Potato Croutons, my love affair began, and it’s been going strong for months.This is an iteration of that recipe, but with more decidedly Middle-Eastern and Mediterranean influences thanks to the addition of za’atar spice blend, hummus, and tahini (follow links for recipes and to learn about the origins of these ingredients).Not only is this bowl incredibly flavorful, it’s also quite nourishing with the addition of a whole sweet potato for plenty of whole, complex carbs and natural sweetness. Our go-to 4-ingredient dill garlic sauce adds a garlicky, lemony punch. Did we mention it’s ready in 30 minutes? Let us show you how it’s done!Parsley is native to the Mediterranean and is rich in antioxidants and minerals including potassium, calcium, manganese, iron, and magnesium.",
+      "Date": "23 Mar 2019",
+      "Image": "https://minimalistbaker.com/wp-content/uploads/2020/07/Garlic-Herb-Sweet-Potato-Nourish-Bowl-Parsley-sweet-potato-garlic-dill-sauce-ready-in-30-minutes-glutenfree-plantbased-minimalistbaker-recipe-26-1365x2048.jpg"
+    },
+    {
+      "category": "Food",
+      "id": 1007,
+      "author": "Emilia Rayson",
+      "title": "How to make Instant Pot Mashed Potatoes",
+      "content": "Lately, I can’t get enough of romaine lettuce, which is weird considering a few months ago it was my least favorite green (next to iceberg). However, with the creation of our Vegan Caesar Salad with BBQ Sweet Potato Croutons, my love affair began, and it’s been going strong for months.This is an iteration of that recipe, but with more decidedly Middle-Eastern and Mediterranean influences thanks to the addition of za’atar spice blend, hummus, and tahini (follow links for recipes and to learn about the origins of these ingredients).Not only is this bowl incredibly flavorful, it’s also quite nourishing with the addition of a whole sweet potato for plenty of whole, complex carbs and natural sweetness. Our go-to 4-ingredient dill garlic sauce adds a garlicky, lemony punch. Did we mention it’s ready in 30 minutes? Let us show you how it’s done!Parsley is native to the Mediterranean and is rich in antioxidants and minerals including potassium, calcium, manganese, iron, and magnesium.",
+      "Date": "3 jun 2019",
+      "Image": "https://minimalistbaker.com/wp-content/uploads/2020/09/FLUFFY-Instant-Pot-Mashed-Potatoes-Buttery-garlicky-creamy-20-minutes-3-ingredients-1-pot-instantpot-plantbased-minimalistbaker-recipe-potatoes-16-1365x2048.jpg"
+    },
+    {
+      "category": "Travelling",
+      "id": 1008,
+      "author": "Leukrecia Pent",
+      "title": "A Broken Backpack",
+      "content": "Melissa is a Canadian doll. She has no filter and is such a warm hearted individual. YOU MUST catch her on Snapchat or Youtube. She's either hitchhiking though SE Asia or sharing her travel shenanigans.She’s such a talented individual and has truly proven that hard work pays off. Melissa has been published on Huffington Post, Matador Network, Thought Catalog and much, much more. She’s a true female backpacker and an inspiration!",
+      "Date": "17 April 2019",
+      "Image": "https://assets-global.website-files.com/56e9debf633486e330198479/57b6723c0c7bdb62381c5e86_top-10-travel-bloggers-you-should-be-follow-danflyingsolo-danielclarke-lonelyplanet-skyscanner.jpg"
+    },
+    {
+      "category": "Travelling",
+      "id": 1009,
+      "author": "Tony Stark",
+      "title": "An Island Microadventure",
+      "content": "One of the great things about Lapland is that people are still in touch with ‘The Nature’. The seasons are so varied – the Winters SO harsh – that Finnish people really do make the most of every beautiful day.I’m up here in Lapland with my friend Lawrence collecting data for my PhD research. One evening after a day spent working in the forest, we piled some food into a little boat and set off to find a beach for dinner. We were elated to discover our very own tiny island, too small to notice on our hastily photocopied map and the perfect setting for an evening campfire.It took all of 25 seconds to walk around, came equipped with a sizable mosquito population and one single Willow warbler. What it didn’t have was any dry firewood, cue a quick row back to the mainland…Around 10pm distant rumbles of thunder told us that our time was up, so we relinquished control of our island to the elements and paddled home!You can read more about what we’re up to in Lapland over here, and see a map of our tiny island on Punkt!",
+      "Date": "27 April 2018",
+      "Image": "http://www.jamesborrell.com/wp-content/themes/elegance/cache/IslandMicroadventure-960x400.jpg"
+    },
+    {
+      "category": "Food",
+      "id": 1010,
+      "author": "Nadia Rayson",
+      "title": "How to make Instant Pot Mashed Potatoes",
+      "content": "Inspired by summer produce and a love for pasta, we dreamt up this dish with sautéed yellow squash, red onion, roasted cherry tomatoes, and a light vegan white sauce.The result is an incredibly hearty yet light pasta with an abundance of vegetables and greens. The perfect plant-based side or entrée for summer and beyond. Just 10 ingredients required. Let’s do this!For the veggies, we sautéed squash with onion, then added salt, pepper, Italian herbs, and red pepper flake for more seasoning and a little heat. Once the veggies were tender, we stirred in spinach and cooked until just wilted. The process of slow roasting intensifies the flavor and makes them taste like candy!To make a vegan white pasta sauce, we used a base of cashews because they yield a creamy texture and neutral flavor.They’re added to a small blender with garlic for zing and nutritional yeast for cheesiness. Salt enhances all the flavors and water or almond milk is added to thin into a pourable sauce.",
+      "Date": "13 jun 2017",
+      "Image": "https://minimalistbaker.com/wp-content/uploads/2020/06/CREAMY-White-Pasta-with-Summer-Vegetables-10-ingredients-simple-methods-light-cheesy-satisfying.-pasta-plantbased-glutenfree-recipe-minimalistbaker-23-1365x2048.jpg"
+    },
+    {
+      "category": "Nature",
+      "id": 1011,
+      "author": "Mike Bruscia",
+      "title": " Polar bears would have an inalienable right to sea ice.",
+      "content": "Earlier this year, a study published in the science journal Ecological Applications concluded that polar bears are spending less time on sea ice, leading them to fast longer, become thinner and have fewer cubs—which is projected to continue for the next three polar bear generations (or 37 years).For polar bears, sea ice is a crucial platform. They use it for long-distance travels to new areas and to hunt by waiting on top of it, anticipating the appearance of unsuspecting seals that pop their heads up out of the water. Sometimes, pregnant females dig in the sea ice to create maternity dens, where they give birth and take care of their cubs.In recent decades, though, this critical habitat has been shrinking. Sea ice concentrations have declined by 13 percent each decade since 1979 due to increasing global temperatures. Arctic regions have warmed twice as fast as the rest of the world, so seasonal sea ice is also forming later in the fall and breaking up earlier in the spring. And when there’s no sea-ice platform, the bears end up moving onto land with no or minimal access to food.he results of the 2020 study were not necessarily surprising for the scientists. well known that changes in the climate are having a negative effect on polar bears",
+      "Date": "29 july 2020",
+      "Image": "https://wp.nathabblog.com/wp-content/uploads/2020/10/Polar-Bears_Mike-Bruscia_Web.jpg"
+    },
+    {
+      "category": "Art",
+      "id": 1012,
+      "author": "Janet Rickus",
+      "title": "Corrections and Colors",
+      "content": "Having sketched in the whole picture, Rickus then makes whatever adjustments are needed to stabilize the composition and correct the drawing. She then begins the layering process of slowly bringing the entire painting to completion.Rickus works with modest-sized synthetic brushes, building the paint with small strokes as she explores the subtle variations of color across surfaces. She doesn’t use a fan brush or any other blending tool. Later in the process she adds Winsor & Newton Liquin to the paint. This creates greater translucency and depth as she glazes the color over the more solid layers beneath.“Each object works off the other,” she says, “and as one object comes closer to completion, the next object has to come up to the development of the previous one.” One of the issues Rickus must resolve at this stage is her choice of background color. “This is one of the most difficult parts of the painting,” she says. “The backgrounds are usually some shade of gray — warm, cool, brownish, or bluish. But it’s always difficult to get the right color or tone that complements every object in the painting. It’s often a matter of trial and error.",
+      "Date": "9 jun 2020",
+      "Image": "https://s31531.pcdn.co/wp-content/uploads/2020/10/Still-Life-With-Spoons-by-Janet-Rickus_WO-1024x808.jpg"
+    },
+    {
+      "category": "Art",
+      "id": 1013,
+      "author": "Natalia Waeve",
+      "title": " Natural Pigments Background",
+      "content": "Ieva: Greenhouse visits were a must-have for my previous painting series, but this spring, when we had to cancel our trips one after another due to the pandemic, I made some changes in my creative plans. But yes, my family and I, we have a tradition of visiting botanical gardens in every city we visit. Of course my all time favourite place to return again and again is Kew Gardens in London (this is the place where my botanical series begun four years ago), but I also highly enjoyed the botanical garden in Berlin where we were almost alone in those huge greenhouses. The tranquility of this visit was priceless. Also, I must mention a very interesting collaboration with the botanical garden in Riga, although this greenhouse is small in comparison to those mentioned above. I had permission to visit this greenhouse in late, dark autumn, and after closing hours when garden falls into darkness, I had my own searchlight to light up the garden my own way. I made a lot of extraordinary photos that evening and used this experience to make my master’s thesis.",
+      "Image": "https://www.jacksonsart.com/blog/wp-content/uploads/2020/11/Family-members-No.2.-d100cm-oc.-2019.jpg"
+    },
+    {
+      "category": "Nature",
+      "id": 1014,
+      "author": "Maeve Wily",
+      "title": "Diversity in the nature sector",
+      "content": "Lucy McRobert, founder of A Focus On Nature, looks at the journey she has been on working in nature conservation, with suggestions of how we can do better as a sector to diversifyI imagine that this has been a difficult time for many of AFON’s members. One day, students will be sitting their GCSEs and there will be a History question about 2020. Will it be remembered as the worst year, where everything went wrong, or as the year that we rewrote the future for the better?Many of the societal, health, environmental and economic problems we face globally have been caused by inequality, by racial discrimination. I won’t try to make sense of vast global issues. I would like to talk about how we, the Youth Nature Network in the UK and the wider nature sector, can address some of the wider problems we see today. This has involved a certain amount of self-reflection, self-awareness and soul searching. There is loads of research highlighting why it’s imperative as a sector that we diversify (see links below). This blog is based on my limited time in the nature sector, explained at times with personal anecdotes and experiences. I’ve tried not to make it about ‘me’, but empathy has been crucial to understanding. I speak only for myself; I don’t represent AFON, its members, supporters or sponsors, and I must reiterate my sincere thanks to them for all that they have done to support both the network and me. There are no accusations; rather, I hope that this can act as a coming together, as we all agree to do significantly more, to try harder.",
+      "Image": "https://static.wixstatic.com/media/7d2d50_3eb9bc3ed13d430281d985f0c7c57e3e~mv2.jpeg/v1/fill/w_740,h_397,al_c,q_90,usm_0.66_1.00_0.01/7d2d50_3eb9bc3ed13d430281d985f0c7c57e3e~mv2.webp"
+    },
+    {
+      "category": "Travelling",
+      "id": 1015,
+      "author": "sandra Kelt",
+      "title": "Best Time to Visit Empire State Building",
+      "content": "To be honest, there’s no single best time to book your Empire State Building tickets. It all depends on what you’re looking to get out of the visit. Here’s our take on how to think about timing for one of New York’s most iconic landmarks.Taking photos, waiting in line, reading posters, riding the elevator up to the observation deck — the whole experience could take around 1.5 hours, maybe slightly longer with a large group, so make sure to plan accordingly! Pro: The ultimate draw of this time slot is definitely the sunset. If you’re lucky, on a clear day, you can watch the city’s radiance shift from sun to electricity. Billboards, breaklights, and street lamps soon fill your vision, and buildings become distinct not by their outline against the blue sky, but rather their illuminated offices and apartments within.Con: The Empire State Building is definitely packed at this time. Right after dinner, this makes for one of the busiest parts of the day, and everyone will be clamoring for that perfect photo of the sunset.",
+      "Image": "https://lounge.placepass.com/wp-content/uploads/2019/07/james-hose-jr-EZbqweQZxSQ-unsplash-768x1024.jpg"
+    },
+    {
+      "category": "Food",
+      "id": 1016,
+      "author": "Madhura shah",
+      "title": "Bowl Vegan Gluten-Free Chocolate Cake",
+      "content": "When I was in college I worked in a movie theater diner, and my absolute favorite part of my shift was when the restaurant closed. We got to turn up the music (we had a jukebox that had really good songs on it), dance around while cleaning, laugh with coworkers about the ups and downs of our shift, and finally eat some food after all the patrons left. My friend Katie was a server, and I managed the dessert counter (are we surprised?). And we both had a thing for the chocolate cake on our menu. It was three layers of rich, decadent, chocolatey goodness, and every once in a while, after a particularly long shift, we’d buy a slice, heat it up, top it with fudge, take two forks, and go to town. Ah, sweet bliss. One bite of this homemade chocolate cake sent me right back to that sweet moment in my adolescence. I don’t remember Katie’s last name or I’d absolutely look her up and tell her that she should make this cake so we could eat some together virtually.I’m thrilled to have created a cake that stacks up to the decadent bakery versions to help us all celebrate and commemorate the special moments in our lives regardless of special dietary needs. ",
+      "Image": "https://minimalistbaker.com/wp-content/uploads/2020/05/AMAZING-1-Bowl-Vegan-Gluten-Free-Chocolate-Cake-Oil-Free-naturally-sweetened-RICH-delicious-plantbased-glutenfree-chocolate-cake-recipe-minimalistbaker-15-1365x2048.jpg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "fName": "Pranav",
+      "uName": "Pranav96",
+      "phoneNo": "9823246164",
+      "email": "pranav@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 2,
+      "fName": "Ameet",
+      "uName": "ameet09",
+      "phoneNo": "9874563211",
+      "email": "awdawd@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": 3,
+      "fName": "mukesh",
+      "uName": "mukesh09Lakh",
+      "phoneNo": "9876543211",
+      "email": "nitaabmani@gmail.com",
+      "password": "987654321"
+    },
+    {
+      "id": 4,
+      "fName": "amit",
+      "uName": "amit08",
+      "phoneNo": "9823246165",
+      "email": "amit@gmail.com",
+      "password": "123456789"
+    }
+  ]
+}
