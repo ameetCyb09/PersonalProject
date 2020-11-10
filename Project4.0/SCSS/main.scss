@@ -108,7 +108,8 @@ button.btn{
     // text-decoration-color: #00ffd5;
     // transition: text-decoration 1s ease-in-out;
     border-radius: 10px;
-    box-shadow: 3px 9px  #48ff00;
+    box-shadow: 3px 3px 9px  #48ff00;
+    transition: box-shadow .3s ease-in-out;
 }
 #logoutClicked{
     display: none;
