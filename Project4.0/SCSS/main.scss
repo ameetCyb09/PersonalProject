@@ -301,14 +301,42 @@ button.btn{
     border-radius: 10px;
 }
 // special button ends
+//carousal caption starts
+.h3Carousal{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media all and (max-width:900px)
+{
+    .h3Carousal{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:700px)
+{
+    .h3Carousal{
+        font-size: 15px;
+    }
+}
+@media all and (max-width:570px)
+{
+    .h3Carousal{
+        display: none;
+    }
+}
+//carousal caption ends
 //carousal image starts
 .postSection{
     height: 100%;
     background-color: $postsection-bgcolor;
 }
-#categories{
-    
+// #categories{
+//     box-shadow: 7px 15px 18px black;
+// }
+#categories:hover{
     box-shadow: 7px 15px 18px black;
+    transition: box-shadow .5s ease-in-out;
 }
 #categories .carousel-item img{
     border: 1px solid $color-black;
@@ -322,6 +350,18 @@ button.btn{
     transition: opacity .5s ease-in-out;
 }
 //carousal image ends
+//carousal button starts
+.transparentBtn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-weight: bold;
+    font-size: xx-large;
+}
+//carousal button ends
 //main section ends
 //footer class :start
 #actualFooter{
