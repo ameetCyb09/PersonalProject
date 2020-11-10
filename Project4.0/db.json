@@ -63,6 +63,14 @@
       "phoneNo": "1234567890",
       "email": "swapnilman@cybage.com",
       "password": "1234567890"
+    },
+    {
+      "id": 9,
+      "fName": "vedant",
+      "uName": "vedK",
+      "phoneNo": "9975800804",
+      "email": "ved@gmail.com",
+      "password": "ved123456"
     }
   ],
   "blogs": [
