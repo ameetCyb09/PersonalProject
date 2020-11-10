@@ -1,0 +1,162 @@
+@import 'variables';
+@import"gridContainer";
+@import "gridbox";
+@import "createBlog";
+@import "header";
+@import "login";
+@import "register";
+@import "footer";
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+//   global classes
+a{
+    text-decoration: none;
+    color: $color-white;
+}
+
+button.btn{
+    border: none;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+// global classes end
+
+//main section starts
+.leftSection{
+    background-color: rgb(235, 149, 118);
+    padding: 20px;
+}
+.postSection{
+    background-color:  #ee4224;
+    padding: 20px;
+    opacity: 70%;
+}
+.sidebar{
+    background-color: #4d88e7;
+    padding: 20px;
+}
+
+// special button starts
+.glow-on-hover {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 50;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+// special button ends
+//carousal caption starts
+.h3Carousal{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media all and (max-width:900px)
+{
+    .h3Carousal{
+        font-size: 20px;
+    }
+}
+@media all and (max-width:700px)
+{
+    .h3Carousal{
+        font-size: 15px;
+    }
+}
+@media all and (max-width:570px)
+{
+    .h3Carousal{
+        display: none;
+    }
+}
+//carousal caption ends
+//carousal image starts
+.postSection{
+    height: 100%;
+    background-color: $postsection-bgcolor;
+}
+// #categories{
+//     box-shadow: 7px 15px 18px black;
+// }
+#categories:hover{
+    box-shadow: 7px 15px 18px black;
+    transition: box-shadow .5s ease-in-out;
+}
+#categories .carousel-item img{
+    border: 1px solid $color-black;
+    opacity: 60%;
+    background-size: cover;
+}
+
+#categories .carousel-item img:hover{
+    opacity: 100%;
+    filter: blur(1px);
+    transition: opacity .5s ease-in-out;
+}
+//carousal image ends
+//carousal button starts
+.transparentBtn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-weight: bold;
+    font-size: xx-large;
+}
+//carousal button ends
+//main section ends

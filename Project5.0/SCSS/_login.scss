@@ -1,0 +1,78 @@
+//login page starts
+#errorPassword span h3{
+    color: red;
+    font-size: large;
+}
+
+#loginPage{
+    background-image: url("../images/pexels-photo-303383.jpeg");
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.boxLogin {
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    transition: 0.25s;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #94e080;
+}
+
+.boxLogin input[type="email"],
+.boxLogin input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+.boxLogin input[type="email"]:focus,
+.boxLogin input[type="password"]:focus{
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.boxLogin h1 {
+    color: $color-white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.boxLogin #btn_Login,
+.boxLogin #btn_Register {
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.boxLogin #btn_Login:hover ,
+.boxLogin #btn_Register:hover{
+    background: #2ecc71
+}
+
+.boxLogin label{
+    color: $color-white;
+}
+
+.boxLogin {
+    color: $color-white;
+}
+//login page ends

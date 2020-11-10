@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../scss/createblog.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="../js/jquery-3.5.1.js"></script>
+  <script src="../js/createblog.js"></script>
+
+</head>
+
+<body class="container">
+  <div class="containerBody">
+
+    <form name="form1" onsubmit="return onUpload(form1.image.value,editor.value)">
+      <label for="category" class="font-weight-bold">Category</label>
+      <select id="category" class="form-control">
+        <option value="select">Please select the category</option>
+        <option value="Food">Food</option>
+        <option value="Nature">Nature</option>
+        <option value="Travelling">Travelling</option>
+        <option value="Art">Art</option>
+      </select>
+      <label for="Title" class="font-weight-bold">Title</label>
+      <input id="Title" placeholder="Please enter title for the blog" type="text" class="form-control">
+      <!-- error message -->
+      <h6 id="title_msg">Please enter valid title</h6>
+      <label for="author" class="font-weight-bold">Author</label>
+      <input id="author" placeholder="Please enter author name for blog" type="text" class="form-control">
+      <!-- error message -->
+      <h6 id="author_msg">Please enter the valid Author Name </h6>
+      <label for="Date" class="font-weight-bold">Date</label>
+      <input id="Date" placeholder="DD-MM-YYYY" type="text" class="form-control">
+      <!-- error message -->
+      <h6 id="date_msg">Please Enter Valid date</h6>
+      <label for="blogcontent" class="font-weight-bold"><b>Write your blog here</b></label>
+      <div class="form-group">
+        <textarea id="editor" placeholder="Write your blog here.."></textarea>
+      </div>
+      <!-- error message -->
+      <h6 id="blogcontent_msg">.</h6>
+
+      <input type="file" id="myfile" name="image"><br>
+      <br>
+
+      <button type="submit" class="btn btn-success">Upload</button> &nbsp;
+
+      <button onclick="reset_All()" type="reset" class="btn btn-primary">reset</button>
+
+
+    </form>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+<script>
+  tinymce.init({
+    selector: 'textarea#editor',
+    menubar: false
+  });
+</script>
+
+</html>

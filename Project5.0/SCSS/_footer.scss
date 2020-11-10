@@ -1,0 +1,61 @@
+//footer class :start
+#actualFooter{
+    position: relative;
+    // overflow: hidden;
+    top: 100%;
+    background-image: linear-gradient(white,#666377, #222129,rgb(17, 16, 16));
+    color: $color-white;
+}
+.footer-copyright{
+    background-color:#131022 ;
+    color: $color-white;
+}
+.footer-copyright a{
+    color: $color-white;
+}
+.footer-copyright a:hover{
+    color: #94e080;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#creatorsCard{
+    border: 0px solid black;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 7px 15px 18px black;
+}
+#creatorsCard h5,
+#creatorsCard p{
+    color: #000;
+    font-weight: bold;
+}
+#creatorsCard ul{
+    list-style: none;
+}
+
+#linksCard{
+    border: 0px solid black;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 7px 15px 18px black;
+    margin-bottom: 20px;
+}
+#linksCard h5{
+    color: #000;
+    font-weight: bold;
+}
+#linksCard ul{
+    list-style: none;
+}
+
+.aboutFooter{
+    color: #000;
+}
+
+#linkTop{
+    margin-top: 40%;
+    margin-left: 70%;
+}
+
+//footer classes :end

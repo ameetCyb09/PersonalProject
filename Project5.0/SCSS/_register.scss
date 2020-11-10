@@ -1,0 +1,77 @@
+//register page starts
+.error{
+    color:red;
+}
+#valid{
+    color:green;
+}
+.registerPage{
+    background-image: url("../images/pexels-photo-583846.jpeg");
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#boxRegister {
+    background:rgba(23,21,20,0.7);
+    width: 90%;
+    transition: 0.25s;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #4ec057;
+}
+#boxRegister h2{
+    text-align: center;
+    color: rgb(230, 219, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#boxRegister input[type="text"],
+#boxRegister input[type="password"],
+#boxRegister input[type="email"],
+#boxRegister input[type="tel"] {
+    border: 0;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: wheat;
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s
+}
+
+#boxRegister input[type="text"]:focus,
+#boxRegister input[type="password"]:focus,
+#boxRegister input[type="email"]:focus,
+#boxRegister input[type="tel"]:focus {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+#boxRegister label{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: $color-white;
+}
+#boxRegister #btnLogin,
+#boxRegister #btnRegister {
+    border: 0;
+    background: none;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color:$color-white;
+    font-weight: bold;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+#boxRegister #btnLogin:hover ,
+#boxRegister #btnRegister:hover{
+    background: #2ecc71;
+    color: #000;
+}
+//register page ends
