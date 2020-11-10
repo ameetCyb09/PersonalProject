@@ -7,6 +7,7 @@ html, body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 //   global classes
 a{
@@ -24,16 +25,51 @@ button.btn{
 
 
 // global classes end
+//header starts
+#mainheader{
+    margin: 0; 
+    color: #efefef;
+    overflow:hidden;
+    position: relative;
+    height: 150px;
+  }
+  
+  #mainheader::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    transform: skewY(-4deg);
+    background: $color-black;
+    transform-origin: bottom left;
+    z-index: -1;
+  }
 
+  @media all and(max-width:1000px){
+      #mainheader{
+          height: 400px;
+      }
+      #mainheader::after{
+          transform: skewY(-7deg);
+          transform-origin: bottom left;
+      }
+  }
+  @media all and (min-width:1600px){
+    #mainheader{
+        height: 200px;
+    }
+  }
 // nav bar  classes start
 
 #loginClicked{
     text-decoration: none;
     font-weight: bold;
 }
-.navbar{
-    background: linear-gradient(to right, black,grey,white,grey);
-}
+// .navbar{
+//     background: linear-gradient(to right, black,grey,white,grey);
+// }
 #quotePost{
     margin: 50px;
     box-shadow: 6px 15px 18px #000;
@@ -49,15 +85,18 @@ button.btn{
     color: $color-white;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.nav-item {
-    color: $color-white;
+.headerLinks{
+    color: wheat;
 }
 .nav-link{
-    color: $color-black;
     font-weight: bold;
     font-size:20px;
+    color: white;
 }
 
 .collapse{
@@ -65,9 +104,11 @@ button.btn{
 }
 .nav-link:hover{
     font-size: 25px;
-    background:rgba(238, 126, 70, 0.5);
-    border: 0px solid;
-    border-radius: 15px;
+    // text-decoration: underline;
+    // text-decoration-color: #00ffd5;
+    // transition: text-decoration 1s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px #48ff00;
 }
 #logoutClicked{
     display: none;
@@ -75,10 +116,13 @@ button.btn{
 }
 
 #submitBtn{
-    color: #000;
+    color: $color-white;
     font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 // nav bar class end
+//header ends
 //main section starts
 .leftSection{
     background-color: rgb(235, 149, 118);
@@ -416,5 +460,10 @@ button.btn{
 
 .aboutFooter{
     color: #000;
+}
+
+#linkTop{
+    margin-top: 40%;
+    margin-left: 70%;
 }
 //footer classes :end
